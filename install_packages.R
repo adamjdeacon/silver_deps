@@ -1,0 +1,9 @@
+install.packages(c(
+    "git2r",
+    "png",
+    "stats",
+    "stringr",
+    "tools",
+    "utils",
+    "testthat"),
+    repos='https://cloud.r-project.org/')
