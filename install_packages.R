@@ -5,5 +5,6 @@ install.packages(c(
     "stringr",
     "tools",
     "utils",
+    "remotes",
     "testthat"),
     repos='https://cloud.r-project.org/')
