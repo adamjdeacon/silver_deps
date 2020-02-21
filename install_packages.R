@@ -23,6 +23,10 @@ install.packages(c(
 	"gh",
 	"purrr",
 	"whisker",
+	"curl",
+	"jsonlite",
+	"logger",
+	"magrittr",
 	"yaml"),
     repos='https://cloud.r-project.org/')
 
