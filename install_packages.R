@@ -58,6 +58,14 @@ install.packages(c(
 	"readr",
 	"scales",
 	"webshot",
+	"pagedown",
+	"httpuv",
+	"promises", 
+	"later", 
+	"AsioHeaders", 
+	"bookdown",
+	"servr",
+	"websocket",
 	"yaml"),
     repos='https://cloud.r-project.org/')
 
