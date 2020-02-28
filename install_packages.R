@@ -1,10 +1,7 @@
 install.packages(c(
 	"git2r",
 	"png",
-	"stats",
 	"stringr",
-	"tools",
-	"utils",
 	"remotes",
 	"testthat",
 	"usethis",
