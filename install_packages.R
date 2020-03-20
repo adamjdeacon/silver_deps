@@ -1,4 +1,7 @@
 install.packages(c(
+	"dplyr",
+	"tidyselect",
+	"plogr",
 	"git2r",
 	"png",
 	"stringr",
