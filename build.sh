@@ -13,12 +13,12 @@ if ! R CMD build . ; then
   exit 1
 fi
 
-tarfile=$(ls ${CONTROLR_PKGNAME}*.tar.gz)
+tarfile=$(ls ${PKGNAME}*.tar.gz)
 
 echo "Running CMD check"
 R CMD check $tarfile --no-manual
 
-checkdir=$(ls -d ${CONTROLR_PKGNAME}.Rcheck)
+checkdir=$(ls -d ${PKGNAME}.Rcheck)
 
 status=$(cat $checkdir/00check.log | grep "^Status")
 
