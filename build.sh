@@ -2,6 +2,7 @@
 
 MRAN=${MRAN=https://cloud.r-project.org/}
 PKGNAME=${PKGNAME=`cat DESCRIPTION  | grep Package: | awk {'print $2'}`}
+R -e "install.packages('remotes')"
 
 R -e "remotes::install_deps(\".\", dependencies = TRUE, threads = parallel::detectCores(),repos=\"${MRAN}\")"
 
