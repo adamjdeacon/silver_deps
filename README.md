@@ -5,12 +5,12 @@ This docker image is to bootstrap the build image for silver and other packages.
 It runs on CentOS 8 (latest) and contains the following R pacakges;
 
 
+* dplyr
+* tidyselect
+* plogr
 * git2r
 * png
-* stats
 * stringr
-* tools
-* utils
 * remotes
 * testthat
 * usethis
@@ -66,10 +66,24 @@ It runs on CentOS 8 (latest) and contains the following R pacakges;
 * webshot
 * pagedown
 * httpuv
-* promises
-* later
-* AsioHeaders
+* promises 
+* later 
+* AsioHeaders 
 * bookdown
 * servr
 * websocket
+* V8
+* rhandsontable
+* shiny
+* shinyAce
+* shinyjs
+* shinytoastr
+* DT
+* shinyWidgets
+* xtable
+* sourcetools
+* fastmap
+* lazyeval
+* htmlwidgets
+* crosstalk
 * yaml
