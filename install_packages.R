@@ -80,6 +80,9 @@ install.packages(c(
 	"lazyeval",
 	"htmlwidgets",
 	"crosstalk",
+	"glue",
+	"withr",
+	"callr",
+	"backports",
 	"yaml"),
     repos='https://cloud.r-project.org/')
-
