@@ -4,7 +4,6 @@ This docker image is to bootstrap the build image for silver and other packages.
 
 It runs on CentOS 8 (latest) and contains the following R pacakges;
 
-
 * git2r
 * png
 * stats
