@@ -84,5 +84,6 @@ install.packages(c(
 	"withr",
 	"callr",
 	"backports",
+	"devtools",
 	"yaml"),
     repos='https://cloud.r-project.org/')
