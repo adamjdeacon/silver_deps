@@ -3,7 +3,7 @@
 PKGNAME=${PKGNAME=`cat DESCRIPTION  | grep Package: | awk {'print $2'}`}
 R -e "install.packages('remotes')"
 
-R -e "remotes::install_deps(\".\", dependencies = TRUE, threads = parallel::detectCores())"
+R -e "remotes::install_deps(\".\", dependencies = TRUE, upgrade=\"never\", threads = parallel::detectCores())"
 
 R -e "devtools::document()"
 
