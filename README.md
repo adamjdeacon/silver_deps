@@ -86,3 +86,7 @@ It runs on CentOS 8 (latest) and contains the following R pacakges;
 * htmlwidgets
 * crosstalk
 * yaml
+* bit
+* bit64
+* blob
+* RSQLite

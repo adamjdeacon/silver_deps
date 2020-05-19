@@ -85,5 +85,9 @@ install.packages(c(
 	"callr",
 	"backports",
 	"devtools",
-	"yaml"),
+	"yaml",
+	"bit",
+	"bit64",
+	"blob",
+	"RSQLite"),
     repos='https://cloud.r-project.org/')
