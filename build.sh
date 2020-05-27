@@ -5,8 +5,6 @@ R -e "install.packages('remotes')"
 
 R -e "remotes::install_deps(\".\", dependencies = TRUE, upgrade=\"never\", threads = parallel::detectCores())"
 
-R -e "devtools::document()"
-
 echo "Building the Package (${PKGNAME})"
 if ! R CMD build . ; then
   echo "Build Failed"
