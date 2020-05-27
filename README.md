@@ -115,6 +115,7 @@ It runs on CentOS 8 (latest) and contains the following R packages and system de
 * sys
 * testthat
 * tibble
+* tidyr
 * tidyselect
 * tinytex
 * usethis
