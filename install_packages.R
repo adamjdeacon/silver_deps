@@ -89,5 +89,6 @@ install.packages(c(
 	"bit",
 	"bit64",
 	"blob",
-	"RSQLite"),
+	"RSQLite",
+	"tidyr"),
     repos='https://cloud.r-project.org/')
