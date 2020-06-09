@@ -90,5 +90,6 @@ install.packages(c(
 	"bit64",
 	"blob",
 	"RSQLite",
+	"ggplot2",
 	"tidyr"),
     repos='https://cloud.r-project.org/')
