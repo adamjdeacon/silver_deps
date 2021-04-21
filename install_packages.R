@@ -1,3 +1,6 @@
+options(Ncpus = parallel::detectCores())
+options(repos = list(CRAN = 'https://packagemanager.rstudio.com/all/__linux__/centos8/latest'))
+
 install.packages(c(
 	"dplyr",
 	"tidyselect",
@@ -92,4 +95,4 @@ install.packages(c(
 	"RSQLite",
 	"ggplot2",
 	"tidyr"),
-    repos='https://cloud.r-project.org/')
+        )
